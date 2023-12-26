@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0; 
+}
+
+.content{
+    top: 40%;
+    left: 40%;
+    position: absolute;
+    color: #fff;
+    font-size: 30px;
+    /* display: flex; */
+    align-items: center;
+    font-weight: bold;
+    
+}
+
+body{
+    
+    background-color: rgb(202, 159, 159);
+}
+
+.launch-time{
+    display: flex;
+    margin-top: 400px;
+    margin-left: 32%;
+    
+    
+}
+
+.launch-time div{
+    flex-basis: 180px;
+}
+
+#days{
+    height: 35px;
+    width: 90px;
+    background-color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 22px;
+    font-weight: 300; 
+    
+    
+}
+#hours{
+    height: 35px;
+    width: 90px;
+    background-color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    font-size: 22px;
+    font-weight: 300; 
+    
+}
+#minutes{
+    height: 35px;
+    width: 90px;
+    background-color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    font-size: 22px;
+    font-weight: 300; 
+
+    
+}
+#seconds{
+    height: 35px;
+    width: 90px;
+    background-color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    font-size: 22px;
+    font-weight: 300; 
+    
+}
+span{
+    font-size: 16px;
+    margin: 22px;
+}
